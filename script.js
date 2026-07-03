@@ -9,7 +9,16 @@ function copyDiscord() {
     alert("Discord copiado al portapapeles.");
 
 }
+// =========================
+// COPIAR CORREO
+// =========================
 
+function copyCorreo () {
+    navigator.clipboard.writeTest("mrsad8248@gmail.com");
+
+    alert("Correo copiado al portapapeles.");
+
+}
 // =========================
 // ANIMACIONES DE ENTRADA
 // =========================
