@@ -40,6 +40,7 @@ Portfolio y CV profesional desarrollado con HTML, CSS y JavaScript.
 ## Contacto
 
 Discord: **dotworry723**
+Correo: **mrsad8248@gmail.com**
 
 ---
 
