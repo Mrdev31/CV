@@ -248,3 +248,63 @@ li {
     }
 
 }
+.timeline-container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:60px 30px;
+}
+
+.subtitle-page{
+
+    color:#94a3b8;
+
+    margin:20px 0 50px 0;
+}
+
+.timeline{
+
+    border-left:3px solid #22d3ee;
+
+    padding-left:30px;
+}
+
+.event{
+
+    margin-bottom:35px;
+
+    position:relative;
+}
+
+.event::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-39px;
+
+    top:8px;
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+    background:#22d3ee;
+}
+
+.event h3{
+
+    color:#22d3ee;
+
+    margin-bottom:8px;
+}
+
+.event p{
+
+    color:#cbd5e1;
+}
