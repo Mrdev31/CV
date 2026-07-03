@@ -37,6 +37,25 @@ document.querySelectorAll("section").forEach(sec=>{
 });
 
 </script>
+<script>
+
+const body = document.body;
+
+for(let i=0;i<25;i++){
+
+    const dot=document.createElement("div");
+
+    dot.className="particle";
+
+    dot.style.left=Math.random()*100+"vw";
+
+    dot.style.animationDelay=Math.random()*5+"s";
+
+    body.appendChild(dot);
+
+}
+
+</script>
 
 <body>
 
@@ -128,15 +147,26 @@ document.querySelectorAll("section").forEach(sec=>{
 
         </section>
 
-        <section>
+<section>
 
-            <h2>Contacto</h2>
+    <h2>Contacto</h2>
 
-            <p>
-                Discord: <strong>dotworry723</strong>
-            </p>
+    <div class="contact-card">
 
-        </section>
+        <img src="assets/discord.png">
+
+        <span>dotworry723</span>
+
+    </div>
+
+</section>
+<section>
+
+    <a href="cv.pdf" class="download-btn">
+        Descargar CV (PDF)
+    </a>
+
+</section>
 
     </main>
 
