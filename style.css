@@ -5,92 +5,169 @@
 }
 
 body{
-    font-family:Inter,sans-serif;
+
     background:#0f172a;
-    color:#e2e8f0;
+    color:#f8fafc;
+
+    font-family:Inter,sans-serif;
 }
 
 .container{
+
     display:flex;
     min-height:100vh;
 }
 
 .sidebar{
-    width:350px;
+
+    width:340px;
+
     background:#111827;
-    padding:50px 30px;
+
+    padding:50px;
+
     text-align:center;
+
     border-right:1px solid #1e293b;
 }
 
 .avatar{
+
     width:180px;
     height:180px;
+
     border-radius:50%;
-    object-fit:cover;
+
     margin-bottom:25px;
-    box-shadow:0 0 30px rgba(34,211,238,.4);
+
+    box-shadow:0 0 40px rgba(0,255,220,.35);
+
+    transition:.3s;
+}
+
+.avatar:hover{
+
+    transform:scale(1.05);
 }
 
 .sidebar h1{
-    font-size:40px;
-    margin-bottom:10px;
+
+    font-size:42px;
 }
 
 .subtitle{
+
     color:#94a3b8;
-    line-height:1.6;
+
+    margin-top:10px;
+
+    line-height:1.7;
 }
 
 .social{
+
     margin-top:40px;
 }
 
 .social p{
-    margin-top:10px;
+
     color:#22d3ee;
+
+    margin-top:10px;
 }
 
 main{
+
     flex:1;
+
     padding:60px;
 }
 
 section{
-    margin-bottom:50px;
+
+    margin-bottom:60px;
 }
 
 h2{
-    margin-bottom:20px;
+
     color:#22d3ee;
+
+    margin-bottom:20px;
+
     border-bottom:2px solid #1e293b;
+
     padding-bottom:10px;
 }
 
+p{
+
+    line-height:1.8;
+}
+
 ul{
+
     padding-left:25px;
 }
 
 li{
+
     margin:12px 0;
 }
 
-p{
-    line-height:1.8;
+.skill{
+
+    margin-bottom:25px;
 }
+
+.skill span{
+
+    display:block;
+
+    margin-bottom:8px;
+}
+
+.bar{
+
+    height:12px;
+
+    background:#1e293b;
+
+    border-radius:50px;
+
+    overflow:hidden;
+}
+
+.fill{
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #00ffbb,
+        #00cfff
+    );
+
+    border-radius:50px;
+}
+
 @media(max-width:900px){
 
     .container{
+
         flex-direction:column;
     }
 
     .sidebar{
+
         width:100%;
+
         border-right:none;
+
         border-bottom:1px solid #1e293b;
     }
 
     main{
+
         padding:30px;
     }
 
